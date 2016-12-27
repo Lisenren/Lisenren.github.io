@@ -1,0 +1,241 @@
+.box{
+	width: 1366px;
+	height: 1772px;
+	margin: 0 auto;
+}
+.box .left{
+	width: 90px;
+	height: 100%;
+	background: #000;
+	float: left;
+	font-size: 12px;
+	position: fixed;
+}
+.box .left .log{
+	width: 40px;
+	height: 40px;
+	border:1px #ccc solid;
+	text-align: center;
+	line-height: 40px;
+	margin: 25px;
+	color: #fff;
+}
+.box .left .student{
+	color:#717171;
+	text-align: center;
+}
+.box .left .user{
+	width:90px;
+	height: 90px;
+	background: url(../images/user.jpg);
+	margin-top: 32px; 
+}
+.box .left .name{
+	text-align: center;
+	color: #717171;
+	line-height: 30px;
+}
+.box .left ul{
+	margin-top: 60px;
+}
+.box .left ul li{
+	line-height: 44px;
+	border-bottom: 1px solid #717171;
+	list-style: none;
+	color: #717171;
+	text-align: center;
+}
+.box .left ul .none{
+	border: 0
+}
+.box #banner{
+	width: 1180px;
+	height: 530px;
+	float: right;
+	padding-bottom: 90px;
+}
+.box #banner .pic{
+	width: 960px;
+	height: 530px;
+	float: left;
+}
+.box #banner .js{
+	width: 158px;
+	height: 530px;
+	float: right;
+	margin: 14px 20px 68px 25px;
+}
+.box #banner .js .ss{
+	width: 158px;
+	height: 280px;
+	background: #f1f1f1;
+	text-indent: 15px;
+	
+}
+.box #banner .js .ss h4{
+	line-height: 37px;
+}
+.box #banner .js .ss p{
+	line-height: 32px;
+	font-size: 12px;
+}
+.box #banner .js .wm{
+	width: 109px;
+	height: 146px;
+	margin-top: 85px;
+	float: right;
+}
+.box #banner .js .wm img{
+	width: 109px;
+	height: 109px;
+	margin-bottom: 23px;
+}
+.box #banner .js .wm .sp1{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../images/pic.jpg);
+	background-position: 0 15px;
+}
+.box #banner .js .wm .sp2{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../images/pic.jpg);
+	background-position: 25px 45px;
+}
+.box #banner .js .wm .sp3{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../images/pic.jpg);
+	background-position: 45px 60px;
+}
+.box #banner .js .wm .sp4{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../images/pic.jpg);
+	background-position: 15px 45px;
+}
+#txt{
+	width: 1180px;
+	height: 96px;
+	clear: both;
+	margin-left: 92px;
+	background: #fff;
+	z-index: 999
+}
+#txt h4{
+	line-height: 26px;
+	margin-left: 80px;
+}
+#txt p span{
+	margin-left: 80px;
+	font-size: 12px;
+	display: inline-block;
+	width: 70px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	background: #d1d1d1;
+	color: #fff;
+	margin-right: 3px;
+}
+#txt ul{
+	margin-left: 70px;
+}
+#txt ul li{
+	width: 90px;
+	height: 22px;
+	float: left;
+	line-height: 22px;
+	text-align: center;
+	font-size: 12px;
+	list-style: none;
+	background: #d1d1d1;
+	margin: 10px;
+	color: #fff;
+}
+.contant{
+	width: 1180px;
+	height: 100%;
+	background: blue;
+	float: right;
+	margin-left: 200px;
+}
+a:link, a:visited {
+    color: #333;
+}
+a:hover {
+    color: #c30;
+}
+
+.item {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 192px;
+    padding: 15px;
+    line-height: 1.5;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+    -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+    -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color = #adacac, direction = 135, strength = 2);
+}
+.item img {
+    display: block;
+}
+
+.item:hover {
+    box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
+    -moz-box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
+    -webkit-box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color = #979797, direction = 135, strength = 3);
+}
+
+#trigger {
+	padding: 10px 30px 20px 30px;
+}
+#trigger a { margin-right: 30px;}
+
+/*
+ * page-navigation
+ */
+#page-navigation {
+	text-align: center;
+	padding: 20px 0 50px 0;
+    display: none;
+}
+#page-navigation a {
+	width:32px;
+	height: 32px;
+	line-height: 32px;
+	display: inline-block;
+	border: 1px #e4e4e4 solid;
+	text-decoration: none;
+}
+#page-navigation .page-navigation-prev, #page-navigation .page-navigation-next {
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	width: 80px !important;
+}
+#page-navigation a:hover {
+	border: 1px #c30 solid;
+	background: #c30;
+	color: #fff;
+}
+#page-navigation a:active {
+}
+#page-navigation a.cur {
+	border: 1px #c30 solid;
+	background: #c30;
+	color: #fff;
+}
+#page-navigation span.disabled {
+	color: #ccc;
+	border: 1px #e4e4e4 solid;
+}
+

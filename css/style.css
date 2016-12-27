@@ -1,0 +1,40 @@
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+
+/* wait_photo */
+
+.wait_photo li{ margin-top:5px;margin-left:5px;float:left;height:253px;display:none;}
+.wait_photo .page_photo {width:480px;margin-top:5px;height:510px;}
+.wait_photo li img{ height:253px;width:332px;}
+.wait_photo .page_photo img {height:510px;width:480px;}
+
+.page_photo_san{margin-top:-253px;}
+.wait_photo li p{
+	right:0px;width:100%;height:48px;position:relative;bottom:0px;top:-66px;
+    background:-moz-linear-gradient(bottom,rgba(0,0,0,0.9) 0,rgba(0,0,0,0) 100%);
+    background:-webkit-gradient(linear,left bottom,left top,color-stop(0%,rgba(0,0,0,0.8)),color-stop(100%,rgba(0,0,0,0)));
+    background:-webkit-linear-gradient(bottom,rgba(0,0,0,0.9) 0,rgba(0,0,0,0) 100%);
+    background:-o-linear-gradient(bottom,rgba(0,0,0,0.9) 0,rgba(0,0,0,0) 100%);
+	background:-ms-linear-gradient(bottom,rgba(0,0,0,0.9) 0,rgba(0,0,0,0) 100%);
+    background:linear-gradient(to top,rgba(0,0,0,0.9) 0,rgba(0,0,0,0) 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#CC000000)
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#CC000000);
+}
+.wait_photo .page_photo p{
+	right:0px;width:100%;height:48px;bottom:0px;margin-top:15px;
+    background:-moz-linear-gradient(bottom,rgba(0,0,0,0.9) 0,rgba(0,0,0,0) 100%);
+    background:-webkit-gradient(linear,left bottom,left top,color-stop(0%,rgba(0,0,0,0.8)),color-stop(100%,rgba(0,0,0,0)));
+    background:-webkit-linear-gradient(bottom,rgba(0,0,0,0.9) 0,rgba(0,0,0,0) 100%);
+    background:-o-linear-gradient(bottom,rgba(0,0,0,0.9) 0,rgba(0,0,0,0) 100%);
+	background:-ms-linear-gradient(bottom,rgba(0,0,0,0.9) 0,rgba(0,0,0,0) 100%);
+    background:linear-gradient(to top,rgba(0,0,0,0.9) 0,rgba(0,0,0,0) 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#CC000000)
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#CC000000);
+}
+.wait_photo .page_photo p img{margin-left:10px;}
+.wait_photo li p a{font-size:14px;font-family:"微软雅黑";color:#fff;text-shadow:1px 1px 0 rgba(0, 0, 0, 1);margin-left:2px;}
+.wait_photo li p span{width:100%;margin-top:12px;float:left;}
+.wait_photo li p a img{margin-left:5px;}
+.wait_photo li p a:hover{color:#e7410d;}
