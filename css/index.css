@@ -30,7 +30,8 @@ a{
 .box .left .user{
 	width:90px;
 	height: 90px;
-	background: url(../images/user.jpg);
+	background: url(../images/2.jpg);
+	background-size: 100% 100%;
 	margin-top: 32px; 
 }
 .box .left .name{
